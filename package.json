@@ -1,0 +1,28 @@
+{
+  "name": "bateman_ipsum",
+  "version": "1.0.0",
+  "description": "Patrick Bateman Ipsum Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alexjpujol/Bateman_Ipsum.git"
+  },
+  "keywords": [
+    "Patrick",
+    "Bateman",
+    "American",
+    "Psycho"
+  ],
+  "author": "Alex Pujol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexjpujol/Bateman_Ipsum/issues"
+  },
+  "homepage": "https://github.com/alexjpujol/Bateman_Ipsum#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
