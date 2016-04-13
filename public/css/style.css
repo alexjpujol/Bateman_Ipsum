@@ -3,9 +3,11 @@
     src: url("/fonts/silianrail.ttf")
 }
 
+body {
+    background-color: rgb(254, 254, 254);
+}
+
 .image {
-    float: left;
-    display: inline-block;
     height: 100vh;
     width: 100vh;
     background: url("/images/batemancopy.jpg");
@@ -15,20 +17,25 @@
 
 .text {
     font-family: 'silianRail';
-    background-color: rgb(252, 252, 252);
-    display: inline-block;
-    float: right;
+    background-color: rgb(254, 254, 254);
+}
+
+button {
+    margin-left: 40%;
+    margin-bottom: 2rem;
 }
 
 h1 {
-    text-align: right;
-    margin: 0 15% 0 0;
+    text-align: center;
     font-size: 48px;
     padding-top: 3%;
 }
 
 h2 {
-    text-align: right;
-    margin: 0 15% 0 0;
+    text-align: center;
     font-size: 36px;
+}
+
+p {
+    text-align:justify
 }
