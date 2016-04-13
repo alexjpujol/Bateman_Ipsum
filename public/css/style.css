@@ -20,9 +20,22 @@ body {
     background-color: rgb(254, 254, 254);
 }
 
+.buttons {
+    text-align: center;
+    margin: 0px auto
+}
+
 button {
-    margin-left: 40%;
-    margin-bottom: 2rem;
+    margin: 0px 5px 10px 5px;
+    display: inline-block;
+}
+
+#quote {
+    
+}
+
+#ipsum {
+    
 }
 
 h1 {
@@ -37,5 +50,6 @@ h2 {
 }
 
 p {
+    margin-top: 10px;
     text-align: center
 }
